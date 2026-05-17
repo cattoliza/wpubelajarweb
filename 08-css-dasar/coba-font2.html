@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba CSS - Font Styling</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+      @font-face {
+        font-family: Coolvetica;
+        src: url(fonts/Coolvetica\ Rg.otf) format(opentype);
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      h1 {
+        color: crimson;
+        font-size: 60px;
+        text-align: center;
+        font-style: italic;
+        font-family: "Nunito", sans-serif;
+        font-weight: 900;
+      }
+      p {
+        color: green;
+        font-size: 30px;
+        text-align: center;
+        font-family: "Lora", sans-serif;
+      }
+      .font-lobster {
+        font-family: "Coolvetica", Arial, Helvetica, sans-serif;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur eius
+      aliquid consectetur perspiciatis error vero, ratione officia at nesciunt
+      cupiditate.
+    </p>
+    <p class="font-lobster">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium,
+      similique!
+    </p>
+  </body>
+</html>
